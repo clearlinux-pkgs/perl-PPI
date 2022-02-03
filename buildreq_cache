@@ -1,7 +1,6 @@
-1.271
+1.272
 perl(Class::Inspector)
 perl(Clone)
-perl(IO::String)
 perl(Params::Util)
 perl(Task::Weaken)
 perl(Test::Deep)
