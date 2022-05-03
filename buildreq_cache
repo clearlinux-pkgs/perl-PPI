@@ -1,9 +1,8 @@
-1.273
+1.274
 perl(Class::Inspector)
 perl(Clone)
 perl(Params::Util)
 perl(Task::Weaken)
-perl(Test::Deep)
 perl(Test::NoWarnings)
 perl(Test::Object)
 perl(Test::SubCalls)
