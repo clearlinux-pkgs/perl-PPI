@@ -1,5 +1,5 @@
 PKG_NAME := perl-PPI
-URL = https://cpan.metacpan.org/authors/id/O/OA/OALDERS/PPI-1.274.tar.gz
+URL = https://cpan.metacpan.org/authors/id/O/OA/OALDERS/PPI-1.275.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
