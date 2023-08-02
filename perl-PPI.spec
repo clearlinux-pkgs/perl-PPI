@@ -4,7 +4,7 @@
 #
 Name     : perl-PPI
 Version  : 1.276
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/O/OA/OALDERS/PPI-1.276.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/O/OA/OALDERS/PPI-1.276.tar.gz
 Summary  : 'Parse, Analyze and Manipulate Perl (without perl)'
