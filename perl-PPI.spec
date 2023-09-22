@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-PPI
-Version  : 1.276
-Release  : 16
-URL      : https://cpan.metacpan.org/authors/id/O/OA/OALDERS/PPI-1.276.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/O/OA/OALDERS/PPI-1.276.tar.gz
+Version  : 1.277
+Release  : 17
+URL      : https://cpan.metacpan.org/authors/id/M/MI/MITHALDU/PPI-1.277.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/M/MI/MITHALDU/PPI-1.277.tar.gz
 Summary  : 'Parse, Analyze and Manipulate Perl (without perl)'
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
@@ -29,7 +29,7 @@ BuildRequires : perl(Test::SubCalls)
 
 %description
 This archive contains the distribution PPI,
-version 1.276:
+version 1.277:
 Parse, Analyze and Manipulate Perl (without perl)
 
 %package dev
@@ -60,8 +60,11 @@ perl components for the perl-PPI package.
 
 
 %prep
-%setup -q -n PPI-1.276
-cd %{_builddir}/PPI-1.276
+%setup -q -n PPI-1.277
+cd %{_builddir}/PPI-1.277
+pushd ..
+cp -a PPI-1.277 buildavx2
+popd
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -96,6 +99,7 @@ find %{buildroot} -type f -name .packlist -exec rm -f {} ';'
 find %{buildroot} -depth -type d -exec rmdir {} 2>/dev/null ';'
 find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 %{_fixperms} %{buildroot}/*
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
