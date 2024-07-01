@@ -7,7 +7,7 @@
 #
 Name     : perl-PPI
 Version  : 1.278
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/O/OA/OALDERS/PPI-1.278.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/O/OA/OALDERS/PPI-1.278.tar.gz
 Summary  : 'Parse, Analyze and Manipulate Perl (without perl)'
