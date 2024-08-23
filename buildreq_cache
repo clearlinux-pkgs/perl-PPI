@@ -1,6 +1,7 @@
-1.278
+1.279
 perl(Class::Inspector)
 perl(Clone)
+perl(Digest::MD5)
 perl(Params::Util)
 perl(Task::Weaken)
 perl(Test::NoWarnings)
