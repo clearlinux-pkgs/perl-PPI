@@ -1,9 +1,11 @@
-1.279
+1.281
 perl(Class::Inspector)
 perl(Clone)
 perl(Digest::MD5)
 perl(Params::Util)
+perl(Safe::Isa)
 perl(Task::Weaken)
 perl(Test::NoWarnings)
 perl(Test::Object)
 perl(Test::SubCalls)
+perl(YAML::PP)
